@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Informações</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f1f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: white;
+            width: 90%;
+            max-width: 380px;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1a3a5f;
+            font-size: 22px;
+            font-weight: 800;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .text-content p {
+            color: #444;
+            margin: 4px 0;
+            font-size: 16px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .subtext {
+            font-size: 12px;
+            color: #888;
+            margin: 15px 0 25px 0 !important;
+            line-height: 1.4;
+        }
+
+        .btn {
+            display: block;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 12px;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background-color: #0f2d52;
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: #ffb13b;
+            color: #0f2d52;
+        }
+
+        .btn:hover {
+            filter: brightness(1.1);
+            transform: translateY(-2px);
+        }
+
+        .footer-links {
+            margin-top: 25px;
+            font-size: 11px;
+            color: #aaa;
+        }
+
+        .footer-links a {
+            color: #aaa;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Central de Informações</h1>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=1000&auto=format&fit=crop" alt="Atendimento Especializado">
+        </div>
+
+        <div class="text-content">
+            <p>Tem alguma dúvida?</p>
+            <p>Fale com <span class="highlight">nossos especialistas!</span></p>
+            <p class="subtext">Atendimento digital para esclarecimento<br>de informações gerais.</p>
+        </div>
+
+        <a href="https://23477920-1-18237237472397-feirao2026.netlify.app/" class="btn btn-primary">
+            Iniciar Atendimento
+        </a>
+
+        <a href="https://23477920-1-18237237472397-feirao2026.netlify.app/" class="btn btn-secondary">
+            Saiba Mais
+        </a>
+
+        <div class="footer-links">
+            <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+        </div>
+    </div>
+
+</body>
+</html>
